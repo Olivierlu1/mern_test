@@ -38,9 +38,7 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-  .connect(
-    "mongodb+srv://olivier:Olivier1@cluster0-twrop.mongodb.net/places?retryWrites=true&w=majority"
-  )
+  .connect("leftblankforgithub")
   .then(() => {
     app.listen(5000);
   })

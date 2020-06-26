@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyAWSxHcAKDoB9-_1RaRjD8SCAfALP5jojo";
+const API_KEY = "blankforgithub";
 const axios = require("axios");
 
 async function getCoordsForAddress(address) {
